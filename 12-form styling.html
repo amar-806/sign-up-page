@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form styling</title>
+    <style>
+     body{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            background-color:mediumblue;
+            color:black;
+            line-height: 1em;
+        }
+       .am{
+           background-color: white;
+           width: 500px;
+           height: 600px;
+           border: 2px red solid;
+           box-sizing: border-box ;
+           border-radius: 10px;
+           padding: auto;
+           margin: auto;
+           text-align: center
+       
+       }
+    
+.btn{
+        background:green;
+        color:whitesmoke;
+        font-size: 20px;
+        padding: 10 20 px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    .menu{
+        color: grey;
+    }
+    .end{
+        color: grey;
+    }
+    .z a:hover{
+        color:teal;
+    }
+    .end a:hover{
+        color: olive;
+    }
+ 
+    </style>
+</head>
+<body>
+    <div class="am">
+    <div id="container"></div>
+    <div class="form-wrap" ></div>
+    <h1>Sign up </h1>
+    <p>It's free it will take a min.</p>
+<form>
+    
+    <div class="form-group">
+        <label for="First-name"> First Name</label><br>
+        <input type="text" name="First name" id="first name"/>
+    </div>
+    <br>
+    <div class="form-group">
+        <label for="email"> E-mail</label><br>
+        <input type="text" name="Email" id="email"/>
+    </div>
+    <br>
+    <div class="form-group">
+        <label for="Password"> Password</label><br>
+        <input type="text" name="Password" id="Password"/>
+    </div>
+    <br>
+    <div class="form-group">
+        <label for="Confirm password">Confirm Password</label><br>
+        <input type="text" name="Confirm Password" id="Confirm Password"/>
+    </div>
+
+<br>
+    <button class="btn">GO!</button>
+  <p class="menu">
+    By clicking you will accept our terms and conditions
+  </p>
+ <p class="z"><a href="#">Terms & conditions</a> and
+  <a href="#">Private policy</a></p> 
+  
+<p class="end">Already have account <a href="#">Login here</a></p>
+</div>
+</body>
+</html>
